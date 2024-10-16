@@ -1,5 +1,6 @@
 {
   "expo": {
+    
     "name": "AppMarche",
     "slug": "AppMarche",
     "version": "1.0.0",
@@ -11,6 +12,7 @@
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+      
     },
     "ios": {
       "supportsTablet": true
@@ -31,6 +33,7 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "entryPoint": "./node_modules/expo/AppEntry.js" 
   }
 }
